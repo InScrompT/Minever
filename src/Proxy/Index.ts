@@ -12,7 +12,12 @@ class MineverProxy {
     }
 
     private handleConnection() {
-        // Code to handle connections
+        this.decodeAddress();
+    }
+
+    private decodeAddress() {
+        const address = this.socket.address() //only returns client IP, not the hostname
+        // then find IP and PORT assigned to this hostname from DB
     }
 
     public start(port: number = 25565) {
