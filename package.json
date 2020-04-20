@@ -1,0 +1,25 @@
+{
+  "name": "minever",
+  "version": "1.0.0",
+  "description": "An awesome minecraft server spawner",
+  "main": "dist/App.js",
+  "author": "xXAlphaManXx",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.658.0",
+    "dockerode": "^3.2.0",
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/dockerode": "^2.5.27",
+    "@types/express": "^4.17.6",
+    "@types/redis": "^2.8.18",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "tsw": "tsc -w -p tsconfig.json",
+    "ts": "tsc -p tsconfig.json"
+  }
+}
